@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">🩸 BloodBank</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#donors">Donors</a>
+            <a href="#request">Blood Request</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Blood Bank Management System</h1>
+            <p>
+                Donate blood, save lives. Help us connect blood donors
+                with people who need blood.
+            </p>
+
+            <a href="#donors" class="btn">Become a Donor</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Blood Bank</h2>
+
+        <p>
+            Our Blood Bank Management System helps manage blood donors,
+            blood requests and available blood groups in an organized way.
+            It makes the process of finding and donating blood easier.
+        </p>
+    </section>
+
+    <!-- Blood Groups -->
+    <section class="blood-section">
+        <h2>Available Blood Groups</h2>
+
+        <div class="blood-container">
+            <div class="blood-card">
+                <h3>A+</h3>
+                <p>Available</p>
+            </div>
+
+            <div class="blood-card">
+                <h3>A-</h3>
+                <p>Available</p>
+            </div>
+
+            <div class="blood-card">
+                <h3>B+</h3>
+                <p>Available</p>
+            </div>
+
+            <div class="blood-card">
+                <h3>B-</h3>
+                <p>Available</p>
+            </div>
+
+            <div class="blood-card">
+                <h3>O+</h3>
+                <p>Available</p>
+            </div>
+
+            <div class="blood-card">
+                <h3>O-</h3>
+                <p>Available</p>
+            </div>
+
+            <div class="blood-card">
+                <h3>AB+</h3>
+                <p>Available</p>
+            </div>
+
+            <div class="blood-card">
+                <h3>AB-</h3>
+                <p>Available</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donor Registration -->
+    <section id="donors" class="form-section">
+        <h2>Donor Registration</h2>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter phone number" required>
+
+            <label>Blood Group</label>
+            <select required>
+                <option value="">Select Blood Group</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>
+
+            <label>City</label>
+            <input type="text" placeholder="Enter your city" required>
+
+            <button type="submit">Register as Donor</button>
+        </form>
+    </section>
+
+    <!-- Blood Request -->
+    <section id="request" class="form-section">
+        <h2>Request Blood</h2>
+
+        <form>
+            <label>Patient Name</label>
+            <input type="text" placeholder="Enter patient name" required>
+
+            <label>Blood Group Required</label>
+            <select required>
+                <option value="">Select Blood Group</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>
+
+            <label>Units Required</label>
+            <input type="number" placeholder="Enter number of units" min="1" required>
+
+            <label>Hospital Name</label>
+            <input type="text" placeholder="Enter hospital name" required>
+
+            <label>Contact Number</label>
+            <input type="tel" placeholder="Enter contact number" required>
+
+            <button type="submit">Submit Blood Request</button>
+        </form>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Phone: +91 98765 43210</p>
+        <p>📧 Email: bloodbank@gmail.com</p>
+        <p>📍 Location: Hyderabad, India</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Blood Bank Management System | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+
